@@ -19,7 +19,7 @@ header {
     display: grid;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, #701414, #cf2e2e 45%, #cf2e2e 48%, #d96410 50%, #701414) ;
+    background: linear-gradient(90deg, #701414, #a2383a 45%, #a2383a 48%, #d96410 50%, #701414) ;
 }
 
 
@@ -52,10 +52,10 @@ header nav .navegacao {
     padding: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background: linear-gradient(90deg, #701414, #cf2e2e 45%, #cf2e2e 48%, #d96410 50%, #701414) ;
+    background: linear-gradient(90deg, #701414, #a2383a 45%, #a2383a 48%, #d96410 50%, #701414) ;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #c9c9c9;
+    border-bottom: 2px solid #c9c9c94d;
 }
 
 .content h1 {
@@ -90,5 +90,17 @@ header nav .navegacao {
 
 .content img {
     max-width: 100%;
+}
 
+/* Main Content */
+
+
+main {
+    display: grid;
+    background-color: #a2383a;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+main article img {
+    max-width: 100%;
 }

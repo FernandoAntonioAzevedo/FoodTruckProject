@@ -99,6 +99,54 @@ main {
     display: grid;
     background-color: #a2383a;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+main article {
+    padding: 0 20px;
+    display: grid;
+    border: 1px solid #c9c9c94d;
+}
+
+main article:nth-child(1) h2 {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Poppins';
+    line-height: 1.3;
+    align-items: center;
+    position: relative;
+
+}
+
+main article:nth-child(1) h2::after {
+    content: '';
+    margin-top: 10px;
+    width: 60px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    display: block;
+
+}
+
+main article:nth-child(1) p {
+    color: #adacac;
+    font-size: 1.1rem;
+    align-self: end;
+}
+
+main .prato {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+
+main .prato .prato_efeito {
+    width: 5px;
+    height: 40px;
+    background-color: #fff;
+    justify-self: center;
+
 }
 
 main article img {

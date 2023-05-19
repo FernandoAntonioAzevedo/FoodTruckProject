@@ -245,3 +245,12 @@ main article img {
     font-family: 'Poppins';
     color: #fff;
 }
+
+/* Section Localização */
+
+.map {
+    background-color: #983436;
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    padding: 60px;
+}

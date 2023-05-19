@@ -289,6 +289,78 @@ main article img {
     padding: 10px 10px 10px 2px;
     border-left: 2px solid #c9c9c94d;
     grid-column: 2;
-    height: 300px;
+    height: 450px;
     width: 100%;
+    position: relative;
+}
+
+.map i.frame::after {
+    content: '';
+    margin-top: 6px;
+    left: -1px;
+    width: 1px;
+    position: absolute;
+    height: 60px;
+    background-color: #c9c9c94d;
+    display: block;
+}
+
+/* Endereço */
+
+.endereco {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    background-color: #983436;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.endereco .endereco_div {
+    border: 1px solid #c9c9c94d;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 200px;
+    transition: .3s ease-in;
+}
+
+.endereco .endereco_div:hover {
+    border-color: #c7a12c;
+    cursor: pointer;
+}
+
+.endereco .endereco_div p {
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.endereco .endereco_div h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.endereco .endereco_div h3:after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+.endereco .endereco_div i {
+    color: #c7a12c;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.endereco .endereco_div span {
+    color: #f7f7f7;
+    font-size: 0.8rem;
 }

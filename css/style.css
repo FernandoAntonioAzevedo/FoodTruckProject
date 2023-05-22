@@ -449,3 +449,66 @@ main article img {
     justify-self: start;
     border-radius: 20px;
 }
+
+/* Contato */
+
+.contact {
+    padding: 60px;
+    background-color: #983436;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;  
+    align-items: center;
+}
+
+.contact_info {
+    display: grid;
+    gap: 20px;
+}
+
+.contact_info h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.contact_info span {
+    background-color: #fff;
+    width: 50px;
+    height: 8px;
+    display: block;    
+}
+
+.contact_info > p {
+    color: #adacac;
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.contact_tel {
+    display: flex;
+    gap: 20px;
+}
+
+.contact_tel i {
+   font-size: 1.5rem;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   padding: 10px;
+   justify-self: start;
+   align-self: center;
+}
+
+.contact_tel div h3 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: .9rem;
+}
+
+.contact_tel div p {
+    font-family: 'Poppins';
+    font-size: .9rem;
+    color: #adacac;
+}

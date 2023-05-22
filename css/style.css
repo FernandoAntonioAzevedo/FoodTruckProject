@@ -595,5 +595,16 @@ footer p {
 }
 
 footer i {
-    margin: 0;
+    margin: 0 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f7f7f72e;
+    font-size: 1.8rem;
+}
+
+footer h3 {
+    font-family: 'Poppins';
+    padding: 5px;
+    color: #fff;
 }

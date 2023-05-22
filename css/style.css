@@ -512,3 +512,32 @@ main article img {
     font-size: .9rem;
     color: #adacac;
 }
+
+.contact_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-self: start;
+}
+
+.contact_form input {
+    border-radius: 4px;
+    border: none;
+    padding: 10px 10px 10px 0;    
+}
+
+.contact_form textarea {
+    grid-column: 1/-1;
+}
+
+.contact_form input::placeholder,textarea::placeholder {
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 10px;
+    font-size: .9rem;
+    color: #adacac;
+}
+
+.contact_form input:nth-child(3) {
+    grid-column: 1/-1;
+}
